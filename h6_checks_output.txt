@@ -1,0 +1,5 @@
+retold vs own recalled (same event): mean cos 1.000; vs random recalled: 0.050; AUC 1.000
+imagined story vs its prompt: mean cos 0.390; vs random prompt: 0.118; AUC 0.927
+n=1172; s quantiles 10/50/90%: [-0.036  0.038  0.219]; share s<0.02: 0.40
+raw corr(s, self-rated similarity) = 0.028; corr(self-rated similarity, imagined importance) = 0.697
+sklearn gamma (no typ control): -0.0018

@@ -1,0 +1,684 @@
+{
+ "assumptions": {
+  "pursuits": 4,
+  "reliability_of_significance_change": 0.7,
+  "habit_phi": 0.5,
+  "missing_share": 0.2,
+  "slope_heterogeneity_sd": "0.5 x beta",
+  "reps_per_cell": 300
+ },
+ "cells": [
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 40,
+   "power": 0.20666666666666667,
+   "mean_estimate": 0.04417406517613431
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 60,
+   "power": 0.24333333333333335,
+   "mean_estimate": 0.043428409960514204
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 80,
+   "power": 0.2866666666666667,
+   "mean_estimate": 0.04158908133233944
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 100,
+   "power": 0.37333333333333335,
+   "mean_estimate": 0.043354508520596455
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 150,
+   "power": 0.45666666666666667,
+   "mean_estimate": 0.04224801437566737
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 200,
+   "power": 0.62,
+   "mean_estimate": 0.0419861644891103
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 300,
+   "power": 0.7333333333333333,
+   "mean_estimate": 0.04023859708253894
+  },
+  {
+   "beta": 0.05,
+   "weeks": 6,
+   "people": 400,
+   "power": 0.85,
+   "mean_estimate": 0.04119699168802077
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 40,
+   "power": 0.20333333333333334,
+   "mean_estimate": 0.03960572077038952
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 60,
+   "power": 0.3,
+   "mean_estimate": 0.04153898602622088
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 80,
+   "power": 0.37333333333333335,
+   "mean_estimate": 0.042258685662626964
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 100,
+   "power": 0.4866666666666667,
+   "mean_estimate": 0.04205667804476832
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 150,
+   "power": 0.63,
+   "mean_estimate": 0.041807271659242765
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 200,
+   "power": 0.7666666666666667,
+   "mean_estimate": 0.04246537090489563
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 300,
+   "power": 0.8966666666666666,
+   "mean_estimate": 0.04103547805857685
+  },
+  {
+   "beta": 0.05,
+   "weeks": 8,
+   "people": 400,
+   "power": 0.98,
+   "mean_estimate": 0.04306949891192411
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 40,
+   "power": 0.3566666666666667,
+   "mean_estimate": 0.044173852067824405
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 60,
+   "power": 0.42,
+   "mean_estimate": 0.04200421946991795
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 80,
+   "power": 0.5766666666666667,
+   "mean_estimate": 0.04227275980298
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 100,
+   "power": 0.6633333333333333,
+   "mean_estimate": 0.042999652157979004
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 150,
+   "power": 0.8533333333333334,
+   "mean_estimate": 0.04290443397561985
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 200,
+   "power": 0.9233333333333333,
+   "mean_estimate": 0.04298183528225246
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 300,
+   "power": 0.9933333333333333,
+   "mean_estimate": 0.04228790114489503
+  },
+  {
+   "beta": 0.05,
+   "weeks": 12,
+   "people": 400,
+   "power": 0.9966666666666667,
+   "mean_estimate": 0.04166482028743205
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 40,
+   "power": 0.49666666666666665,
+   "mean_estimate": 0.08343951414963041
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 60,
+   "power": 0.6433333333333333,
+   "mean_estimate": 0.08154796230767568
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 80,
+   "power": 0.7833333333333333,
+   "mean_estimate": 0.08405734305175144
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 100,
+   "power": 0.88,
+   "mean_estimate": 0.08265722026202388
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 150,
+   "power": 0.97,
+   "mean_estimate": 0.08494815439184181
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 200,
+   "power": 0.9866666666666667,
+   "mean_estimate": 0.08299505439578463
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.08199116127193269
+  },
+  {
+   "beta": 0.1,
+   "weeks": 6,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.08428214350816123
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 40,
+   "power": 0.6666666666666666,
+   "mean_estimate": 0.08416642878502432
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 60,
+   "power": 0.8233333333333334,
+   "mean_estimate": 0.0850447408531919
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 80,
+   "power": 0.9233333333333333,
+   "mean_estimate": 0.08331352142868882
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 100,
+   "power": 0.94,
+   "mean_estimate": 0.08279882258491517
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 150,
+   "power": 0.9933333333333333,
+   "mean_estimate": 0.0815585679009051
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.08284196634114996
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.08310531818860221
+  },
+  {
+   "beta": 0.1,
+   "weeks": 8,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.08387602045275173
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 40,
+   "power": 0.79,
+   "mean_estimate": 0.08167682494699167
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 60,
+   "power": 0.9366666666666666,
+   "mean_estimate": 0.08294036963005247
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 80,
+   "power": 0.9833333333333333,
+   "mean_estimate": 0.08197127442789953
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 100,
+   "power": 0.9933333333333333,
+   "mean_estimate": 0.08259747954248726
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.08367904771256893
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.08384235901293884
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.08266269921436133
+  },
+  {
+   "beta": 0.1,
+   "weeks": 12,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.0837178611480884
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 40,
+   "power": 0.7933333333333333,
+   "mean_estimate": 0.12323197755381396
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 60,
+   "power": 0.94,
+   "mean_estimate": 0.12538979359522562
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 80,
+   "power": 0.9866666666666667,
+   "mean_estimate": 0.12283242659295325
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 100,
+   "power": 1.0,
+   "mean_estimate": 0.12777902675715874
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.12442963734232369
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.12695648697921283
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.12420059017303671
+  },
+  {
+   "beta": 0.15,
+   "weeks": 6,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.12477700041234864
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 40,
+   "power": 0.9066666666666666,
+   "mean_estimate": 0.12297752559745755
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 60,
+   "power": 0.9866666666666667,
+   "mean_estimate": 0.12422416573280005
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 80,
+   "power": 1.0,
+   "mean_estimate": 0.12695001791082922
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 100,
+   "power": 1.0,
+   "mean_estimate": 0.12647620859049208
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.1279470886559154
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.12392459894213699
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.12559166313893924
+  },
+  {
+   "beta": 0.15,
+   "weeks": 8,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.1251634822596835
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 40,
+   "power": 0.9833333333333333,
+   "mean_estimate": 0.1264092024358646
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 60,
+   "power": 0.9966666666666667,
+   "mean_estimate": 0.12655285915068296
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 80,
+   "power": 1.0,
+   "mean_estimate": 0.1262617764369917
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 100,
+   "power": 1.0,
+   "mean_estimate": 0.12374637753897479
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.1260328139174859
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.12320567182271963
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.12451496776322135
+  },
+  {
+   "beta": 0.15,
+   "weeks": 12,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.12513738739395136
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 40,
+   "power": 0.96,
+   "mean_estimate": 0.16631049713637955
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 60,
+   "power": 0.99,
+   "mean_estimate": 0.16746023871134652
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 80,
+   "power": 1.0,
+   "mean_estimate": 0.16500572901170854
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 100,
+   "power": 1.0,
+   "mean_estimate": 0.16717324315320864
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.1681645590057348
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.16638195290195773
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.16747522611726112
+  },
+  {
+   "beta": 0.2,
+   "weeks": 6,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.16626508924566155
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 40,
+   "power": 1.0,
+   "mean_estimate": 0.17173924315279743
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 60,
+   "power": 1.0,
+   "mean_estimate": 0.1676780720646774
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 80,
+   "power": 1.0,
+   "mean_estimate": 0.16709586040272892
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 100,
+   "power": 1.0,
+   "mean_estimate": 0.16687148103089378
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.1665221886473615
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.16649856037540162
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.1672904557276117
+  },
+  {
+   "beta": 0.2,
+   "weeks": 8,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.16748907443299438
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 40,
+   "power": 1.0,
+   "mean_estimate": 0.1700881758036857
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 60,
+   "power": 1.0,
+   "mean_estimate": 0.16754807861127693
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 80,
+   "power": 1.0,
+   "mean_estimate": 0.16434589705279212
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 100,
+   "power": 1.0,
+   "mean_estimate": 0.16615186437511484
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 150,
+   "power": 1.0,
+   "mean_estimate": 0.1682226636929449
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 200,
+   "power": 1.0,
+   "mean_estimate": 0.16762413382876032
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 300,
+   "power": 1.0,
+   "mean_estimate": 0.16749751676761682
+  },
+  {
+   "beta": 0.2,
+   "weeks": 12,
+   "people": 400,
+   "power": 1.0,
+   "mean_estimate": 0.16702167114360703
+  }
+ ]
+}

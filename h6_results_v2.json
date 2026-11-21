@@ -1,0 +1,135 @@
+{
+ "protocol_sha256": "9d97ebee0166951dcc6703ebc6378a462c7d49ddce4b484224bc638f0a00ff5d",
+ "log": [
+  "sample 1172 imagined stories, 398 workers (v1 definition)"
+ ],
+ "folds": {
+  "B": {
+   "selection_fold": "A",
+   "test_fold": "B",
+   "selection_mc": {
+    "summary|summary|svd": {
+     "b": 0.0947,
+     "lo": 0.021,
+     "hi": 0.1683,
+     "t": 2.52
+    },
+    "summary|summary|raw": {
+     "b": 0.0689,
+     "lo": 0.006,
+     "hi": 0.1317,
+     "t": 2.15
+    },
+    "story|summary|svd": {
+     "b": 0.0394,
+     "lo": -0.0471,
+     "hi": 0.126,
+     "t": 0.89
+    },
+    "story|summary|raw": {
+     "b": 0.011,
+     "lo": -0.0567,
+     "hi": 0.0788,
+     "t": 0.32
+    },
+    "story|story|svd": {
+     "b": 0.0659,
+     "lo": -0.0353,
+     "hi": 0.1672,
+     "t": 1.28
+    },
+    "story|story|raw": {
+     "b": 0.061,
+     "lo": -0.0103,
+     "hi": 0.1324,
+     "t": 1.68
+    },
+    "mainEvent|mainEvent|svd": {
+     "b": 0.0063,
+     "lo": -0.0734,
+     "hi": 0.0861,
+     "t": 0.16
+    },
+    "mainEvent|mainEvent|raw": {
+     "b": -0.0048,
+     "lo": -0.0896,
+     "hi": 0.0801,
+     "t": -0.11
+    }
+   },
+   "chosen": "summary|summary|svd",
+   "test_fold_validity": {
+    "b": -0.023951694136003232,
+    "se": 0.04427705367496959,
+    "lo": -0.11073312468049047,
+    "hi": 0.06282973640848401,
+    "t": -0.5409504957540444
+   },
+   "status": "chosen measure failed validity in test fold"
+  },
+  "A": {
+   "selection_fold": "B",
+   "test_fold": "A",
+   "selection_mc": {
+    "summary|summary|svd": {
+     "b": -0.024,
+     "lo": -0.1107,
+     "hi": 0.0628,
+     "t": -0.54
+    },
+    "summary|summary|raw": {
+     "b": -0.0284,
+     "lo": -0.1041,
+     "hi": 0.0472,
+     "t": -0.74
+    },
+    "story|summary|svd": {
+     "b": 0.089,
+     "lo": 0.0083,
+     "hi": 0.1697,
+     "t": 2.16
+    },
+    "story|summary|raw": {
+     "b": 0.0768,
+     "lo": -0.0188,
+     "hi": 0.1723,
+     "t": 1.58
+    },
+    "story|story|svd": {
+     "b": 0.1793,
+     "lo": 0.0506,
+     "hi": 0.3081,
+     "t": 2.73
+    },
+    "story|story|raw": {
+     "b": 0.1184,
+     "lo": -0.0358,
+     "hi": 0.2725,
+     "t": 1.5
+    },
+    "mainEvent|mainEvent|svd": {
+     "b": -0.0086,
+     "lo": -0.1116,
+     "hi": 0.0944,
+     "t": -0.16
+    },
+    "mainEvent|mainEvent|raw": {
+     "b": 0.0682,
+     "lo": 0.0145,
+     "hi": 0.1218,
+     "t": 2.49
+    }
+   },
+   "chosen": "story|story|svd",
+   "test_fold_validity": {
+    "b": 0.06593420632137384,
+    "se": 0.051654342081500174,
+    "lo": -0.035306443803478235,
+    "hi": 0.16717485644622593,
+    "t": 1.2764504137395247
+   },
+   "status": "chosen measure failed validity in test fold"
+  }
+ },
+ "decision": "Hippocorpus cannot test H6 with available measures"
+}
